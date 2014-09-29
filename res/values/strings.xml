@@ -4,5 +4,6 @@
     <string name="app_name">testServiceHolder</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="Service_started">服务已启动</string>
 
 </resources>
