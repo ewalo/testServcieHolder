@@ -1,6 +1,5 @@
+package com.example.testserviceholder;
 
-import com.example.testserviceholder.R;
-import com.example.testserviceholder.TestServiceHolder;
 
 import android.app.Service;
 import android.content.Intent;
@@ -58,6 +57,7 @@ public class TestService extends Service {
 		Log.e(TAG, "=============> TestService.onDestroy");
 	}
 	
+	@SuppressWarnings("deprecation")
 	private void showNotification() {
 		Notification notification = new Notification(R.drawable.ic_launcher, 
 		"Service started", System.currentTimeMillis());
